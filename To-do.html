@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>To-do App</title>
+               <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container">
+        <h1>To-do List</h1>
+        <div class="input">
+            <label for="todo" id="space" style="font-size: 20px;color: antiquewhite;">New ToDo:</label><br>
+            <input type="text" style="width:91% ;height: 40px;border-radius: 5px;background-color: transparent;
+            border: solid white ;border-width: thin;margin-top: 10px;padding-bottom: 15px;" id="todo" name="todo"><br>
+            <span id="error" style="color: red; padding:10px"></span>
+        </div>
+        <button class ="btn" id="btnclick" onclick="addmore()">Add To-Do</button> <br>       
+        <h3 style="text-align: left;padding-left: 20px;padding-top: 20px;">To-Do List</h3>
+        <hr size="1" width="95%" color="white">
+        <ul id="box"></ul>
+    </div>
+        <script src="todo.js"></script>
+    </body>
+    </html>
